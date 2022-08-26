@@ -15,3 +15,232 @@ html{
     padding: 0%;
     margin: 0%;
 }
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    }
+
+
+
+
+
+
+/* Navigation sector */
+
+.logo{
+    height: 60px;
+    width: 200px;
+}
+
+.home{
+  
+    padding: 5px; 
+}
+.home .about:hover{
+    cursor: pointer;
+    color: grey;
+}
+.home .btn{
+    height: 20px;
+    width: 100px;
+    
+}
+.home .btn1{
+    margin-top: 5px;
+    
+}
+
+/* Home */
+
+.image{
+    /* position: relative; */
+    color: white;
+    font-weight: bold;
+    font-style: oblique;
+}
+.image .imageText{
+    /* position: absolute; */
+    font-size: larger;
+}
+.image .imageText .imageText2{
+    color: white;
+}
+.image .imageText .imageText1{
+    color: #eb870d;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.5rem;
+    word-spacing: 0.1rem;
+}
+.image .imageText button{
+    color: white;
+    border: #eb870d;
+    background: #eb870d;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: x-small;
+    font-style: normal;
+}
+
+/* Info */
+.info{
+    font-style: normal;
+    font-size: small;
+    letter-spacing: 0.5rem;
+    word-spacing: 0.1rem;
+    padding: 20px;
+}
+
+ .info1{
+    font-style: normal;
+    font-size: small;
+    word-spacing: 0.1rem;
+    writing-mode: vertical-lr;
+    
+}
+.First{
+    position: relative;
+    height: 250px;
+    width: 300px;
+    background-size: cover;
+    background-image: url("./assets/02.png");
+    
+}
+.Second{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 12px;
+    border: 2px solid #eb870d;
+    box-sizing: border-box;
+    height: 225px;
+    width: 275px;
+}
+.Third{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    margin-top: 62%;
+    margin-left: 82%;
+}
+.info2{
+    padding-left: 3px;
+    box-sizing: border-box;
+    border-left: 6px solid #eb870d;
+    
+}
+.infoText{
+    padding: 20px 0px 0px 0px
+}
+.row1{
+    color: #eb870d;
+    font-size: x-small;
+}
+.row2{
+    font-size: larger;
+    font-weight: bold;
+}
+.row3{
+    padding: 10px 0px 10px 0px;
+    font-size: 12px;
+    color: rgb(146, 146, 146);
+}
+.row4{
+    font-style: normal;
+    font-size: small;
+    font-weight: normal;
+    word-spacing: 0.1rem;
+    writing-mode: vertical-lr;
+
+
+}
+
+
+/* Footer section */
+
+.site-footer{
+    padding: 5em 0;
+    background: #393939;
+    font-size: 14px;
+    color: #393939;
+}
+
+.site-footer a{
+    color: aliceblue;
+    border-bottom: 1px solid transparent;
+}
+
+.site-footer a:hover{
+    color: aqua;
+    border-bottom: 1px solid #393939;
+}
+
+/* Our Project */
+.build{
+    height: 25rem;
+    width: 15rem;
+    position: relative;
+}
+.ongoing{
+    padding: 0.5rem;
+    text-align: center;
+    background: #EB870C;
+    color: white;
+    text-transform: uppercase;
+}
+.upcoming{
+    padding: 0.5rem;
+    text-align: center;
+    background: gray;
+    color: white;
+    text-transform: uppercase;    
+}
+.our{
+    font-size: x-large;
+    font-weight: bold; 
+}
+.project{
+    font-style: #EB870C;
+    margin-left: 2px;
+}
+.ARKADE{
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    width: 16px;
+}
+.immage{
+    background-image: url("/assets/04.png");
+    background-size: cover;
+    
+}
+.immage1{
+    background-image: url("/assets/05.png");
+    background-size: cover;
+}
+.immage2{
+    background-image: url("/assets/06.png");
+    background-size: cover;
+}
+.immage3{
+    background-image: url("/assets/07.png");
+    background-size: cover;
+}
+.text1{
+    position: absolute;
+    top: 21rem;
+    color: #EB870C;
+    font-weight: bold;
+}
+.text2{
+    position: absolute;
+    top: 22.2rem;
+    color: white;
+    font-size: small;
+}

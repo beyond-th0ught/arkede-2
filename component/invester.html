@@ -5,28 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+     <!-- Jquery cdn -->
+     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+     <!-- CSS only -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+     <link rel="stylesheet" href="../style.css">
+     <!-- JavaScript Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+ 
 </head>
 <body>
-    <div class='flex items-center justify-between h-[28rem]'>
-        <div class=' h-full w-[40%] bg-green flex flex-col justify-center ml-[11%]'>
+    <div class='d-flex align-items-center justify-content-between' style="height: 28rem;">
+        <div class=' h-full w-[40%] bg-green d-flex flex-column justify-content-center ml-[11%]'>
             <div class='flex mb-5'>
-                <div class='line border-l-[8px] border-[#EB870C] h-[6.3rem]'></div>
+                <div class='line border-l-[8px] h-[6.3rem]' style="border-color: #EB870C;"></div>
                 <div class='ml-2'>
-                    <div class='mb-[5px] tracking-wide font-semibold text-[85%] text-[#858585]'>A R K A D E</div>
+                    <div class='mb-[5px] tracking-wide font-semibold text-[85%]' style="color: #858585;">A R K A D E</div>
                     <div class='mb-1 text-4xl font-bold'>Life Investors,</div>
-                    <div class='text-2xl font-semibold flex'><div>rather than developers</div> <div class='text-[#EB870C] text-[2.5rem] font-bold'> . </div></div>
+                    <div class='text-2xl font-semibold flex'><div>rather than developers</div> <div style="color: #EB870C;" class=' text-[2.5rem] font-bold'> . </div></div>
                 </div>
             </div>
-            <div class='text-[12px] mb-5'>
+            <div class=' mb-5' style="font-size: 12px;">
                 All our endeavours are dear to us. Some, however, are closest to our heart. They form a source of our pride and are perfect examples of why we call ourselves Life Investors. These are filled with life, to the brim.
             </div>
-            <div class=' bg-[#EB870C] p-2 w-[25%] font-bold text-white text-center text-[12px]'>
+            <div class=' p-2 w-25 font-bold text-white text-center ' style="background-color: #EB870C; font-size: 12px;">
                 Take a look
             </div>
         </div>
-        <div class='relative bg-red h-full w-[50%] flex items-center'>
-            <div class='border-2 border-[#EB870C] w-[70%] h-[60%] ml-[11%]'> </div>
-            <img src={img1} class="w-[70%] h-[60%] absolute left-[7.9%] top-[23.5%]" />
+        <div class='position-relative bg-red h-full w-50 flex align-items-center'>
+            <div class='border-2 w-75 h-[60%] ml-[11%]' style="border-color: #EB870C;"> </div>
+            <img src="../assets/08.png" class="w-75 h-[60%] absolute left-[7.9%] top-[23.5%]" />
         </div>
     </div>
 </body>

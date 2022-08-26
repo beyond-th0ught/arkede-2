@@ -4,45 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Document</title>
+    <title>ARKADE </title>
 </head>
 <body>
-   
-    <div class=''>
-        <div class=' h-20 text-sm flex justify-center items-center  '>
-            <div class=' flex  items-center mr-10'>
-                <img src="./assets/13.png" class="w-[256px] h-[65px]" />
+    <div class="container py-2 h-100">
+        <div class="row text-center align-items-center">
+            <div class="col-2 ">
+                <img src="../assets/13.png" alt="Logo" class="logo">
             </div>
-            <div class='flex text-md gap-3 items-center font-semibold'>
-                <div class='flex gap-2' id="nav-buttons">
-                    
+            <div class="col-md-7 m-auto home">
+                <div class="row">
+                    <div class="col-2 about">
+                        Home
+                    </div>
+                    <div class="col-2 about">
+                        About Us
+                    </div>
+                    <div class="col-2 about">
+                        Our Projects
+                    </div>
+                    <div class="col-2 about">
+                        Investors
+                    </div>
+                    <div class="col-2 about">
+                        Careers
+                    </div>
+                    <div class="col-2 about">
+                        Contact Us
+                    </div>
                 </div>
-                <div class='bg-[#eb870d] py-2 px-5 ml-2 hover:cursor-pointer'>
-                    Schedule a site visit 
-                </div>
-
+            </div>
+            <div class="col-2 d-flex  align-items-center h-100">
+                <div class="col-10 py-2" style="background-color: #eb870d;">Schedule a site visit</div> 
             </div>
         </div>
-    </div>
-   
-
-    <script>
-        var addButton = document.getElementById("nav-buttons");
-        const data=[
-            {name:"Home"},{name:"About Us"},{name:"Our Projects"},{name:"Investors"},{name:"Careers"},{name:"Contact Us"}
-        ]
-        $(function(){
-            data.map((val,index)=>{
-                $(addButton).append(
-                    "<label class='hover:cursor-pointer mr-8 shadow-sm break-all hover:text-[#eb870d]'>"
-                    + val.name +
-                    "</label>"
-                );
-            })
-        })
-        
-    </script>
+    </div>  
 </body>
 
 </html>

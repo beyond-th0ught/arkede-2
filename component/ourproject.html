@@ -4,60 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css')">
+    <title>ARKADE </title>
 </head>
 <body>
-    <div class='flex items-center justify-between h-[35rem] bg-[#F4F4F4]'>
-        <div class='basis-[5%] mx-6 my-10 text-left'>
-                
-        </div>
-
-        <div class='flex flex-col justify-center items-center basis-[82%]'>
-            <div class='flex justify-between w-full'>
-                <div  class=' flex items-center'>
-                    <div class='text-2xl font-bold flex '>OUR <div class='text-[#EB870C] ml-2'>PROJECTS</div></div>
-                    <div class='mx-2 border-t border-[#000000] w-16'></div>
-                </div>
-                <div class='flex justify-center items-center'>
-                    <div class='px-7 py-2 text-center bg-[#EB870C] text-white'>ONGOING</div>
-                    <div class='px-7 py-2 text-center bg-stone-800 text-white'>UPCOMING</div>
+    <div class="container">
+        <div class="row">
+            <div class='our flex-row'>OUR <div class='project'>PROJECTS</div></div>
+                    <div class='mx-2 border-t border-[#000000] ARKADE w-16'></div>
+            <div class="col-md-3 ms-auto">
+                <div class="row ">
+                    <div class="col ongoing ">Ongoing</div>
+                    <div class="col upcoming">upcoming</div>
                 </div>
             </div>
-            <div class='flex w-full justify-center mt-5'>
-                <div class='relative'>
-                    <img class='w-64' src={img1} />
-                    <div class='absolute bottom-[3%] left-[5%] shadow-2xl shadow-black'>
-                        <div class='text-[#EB870C] font-bold'>ARKADE</div>
-                        <div class='text-white text-sm'>GOREGAON</div>
-                    </div>
-                </div>
-                <div class='relative'>
-                    <img class='w-64' src={img2} />
-                    <div class='absolute bottom-[3%] left-[5%] shadow-2xl shadow-black'>
-                        <div class='text-[#EB870C] font-bold'>ARKADE</div>
-                        <div class='text-white text-sm'>GOREGAON</div>
-                    </div>
-                </div>
-                <div class='relative'>
-                    <img class='w-64' src={img3} />
-                    <div class='absolute bottom-[3%] left-[5%] shadow-2xl shadow-black'>
-                        <div class='text-[#EB870C] font-bold'>ARKADE</div>
-                        <div class='text-white text-sm'>GOREGAON</div>
-                    </div>
-                </div>
-                <div class='relative'>
-                    <img class='w-64' src={img4} />
-                    <div class='absolute bottom-[3%] left-[5%] shadow-2xl shadow-black'>
-                        <div class='text-[#EB870C] font-bold'>ARKADE</div>
-                        <div class='text-white text-sm'>GOREGAON</div>
-                    </div>
-                </div>
+            <div class="w-100 p-3"></div>         
+        </div>
+        <div class="row">
+            <div class="col-3 immage build">
+                <div class='text1 '>ARKADE ADORNIA</div>
+                <div class='text2'>GOREGAON (E)</div>
+            </div>
+            <div class="col-3  immage1 build">
+                <div class='text1'>JIVAN SARITA</div>
+                <div class='text2'>VILE PARLE (E)</div>                
+            </div>
+            <div class="col-3 immage2 build">
+                 <div class='text1 '>FORTUNA</div>
+                <div class='text2'>PROJECTT STREET</div>
+            </div>
+            <div class="col-3 immage3 build">
+                 <div class='text1'>OM KHUSHAL</div>
+                <div class='text2'>VILE PARLE (E)</div>
             </div>
         </div>
-
-        <div class='basis-[5%] mx-6 my-10 text-left'>
-                  
-        </div>
+        
     </div>
 </body>
+
 </html>
