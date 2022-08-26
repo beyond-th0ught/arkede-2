@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+    <div className='bg-[#393939] text-white'>
+        <div className='flex'>
+            <div className='text-stone-500 bg-red- basis-[5%] mx-6 my-10 text-left'>
+               
+                
+            </div>
+            <div className='text-white text-xs basis-[30%] ml-9 my-10 mb-12 text-left bg-green flex items-center'>
+                <img src={img1} className="w-[80%]" />
+            </div>
+            <div className='text-white text-xs basis-[12%] ml-9 my-10 mb-12 text-left footer1'>
+                
+            </div>
+            <div className='text-white text-xs basis-[12%] ml-6 my-10 text-left  footer2'>
+               
+            </div>
+            <div className='text-white text-xs basis-[20%] ml-6 my-10 text-left  footer3'>
+                
+            </div>
+            <div className='text-stone-500 bg-red- basis-[5%] mx-6 my-10 text-left'>
+               
+                
+            </div>
+        </div>
+        <div className='flex justify-center items-center py-4 bg-[#2D2D2D] text-white text-xs'>
+            © Arkade Group 2019, all rights reserved.
+        </div>
+    </div>
+
+    <script>
+        const data2 = ["About Us", "Our Projects", "Investors", "Careers", "Contact Us"];
+        const data3 = ["Newsroom", "Customer Care", "Sitemap", "Privacy Policy", "Disclaimer"];
+        const data4 = ["Arkade House, Next to Children's Academy, A.S.Marg, Ashok Nagar, Kandivali (E), Mumbai 400 101, Maharashtra, India,", "022 2886 3787 / 92228 92229", "022 2887 4742", "info@arkade.in", "www.arkade.in"]
+
+        var Footer1 = document.getElementById("footer1");
+        var Footer2 = document.getElementById("footer2");
+        var Footer3 = document.getElementById("footer3");
+
+        $(function(){
+            data2.map((val,index)=>{
+                $(Footer1).append(
+                    "<div className='mt-3'>"
+                    + val +
+                    "</div>"
+                );
+            })
+
+            data3.map((val,index)=>{
+                $(Footer2).append(
+                    "<div className='mt-3'>"
+                    + val +
+                    "</div>"
+                );
+            })
+
+            data4.map((val,index)=>{
+                $(Footer3).append(
+                    "<div className='mt-3'>"
+                    + val +
+                    "</div>"
+                );
+            })
+        })
+    </script>
+</body>
+</html>
