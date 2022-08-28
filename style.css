@@ -11,6 +11,7 @@ body{
     margin: 0%;
 }
 
+
 html{
     padding: 0%;
     margin: 0%;
@@ -35,13 +36,13 @@ html {
 /* Navigation sector */
 
 .logo{
-    height: 60px;
-    width: 200px;
+    height: 40px;
+    width: 160px;
 }
 
 .home{
-  
-    padding: 5px; 
+    margin-bottom: 0px;
+
 }
 .home .about:hover{
     cursor: pointer;
@@ -127,8 +128,10 @@ html {
     position: absolute;
     height: 120px;
     width: 120px;
-    margin-top: 62%;
-    margin-left: 82%;
+    bottom: -15%;
+    right: -10%;
+    /* margin-top: 62%;
+    margin-left: 82%; */
 }
 .info2{
     padding-left: 3px;
@@ -183,11 +186,6 @@ html {
 }
 
 /* Our Project */
-.build{
-    height: 25rem;
-    width: 15rem;
-    position: relative;
-}
 .ongoing{
     padding: 0.5rem;
     text-align: center;
@@ -205,42 +203,180 @@ html {
 .our{
     font-size: x-large;
     font-weight: bold; 
+    
 }
 .project{
-    font-style: #EB870C;
+    color: #EB870C;
     margin-left: 2px;
 }
 .ARKADE{
-    border: 1px solid #000000;
+    border-top: 1px solid #000000;
     box-sizing: border-box;
-    width: 16px;
+    margin: 20px 2px 0px 2px;
+    width: 36px;
+    height: 0.1rem;
 }
+
 .immage{
     background-image: url("/assets/04.png");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     
 }
 .immage1{
     background-image: url("/assets/05.png");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .immage2{
     background-image: url("/assets/06.png");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .immage3{
     background-image: url("/assets/07.png");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .text1{
     position: absolute;
-    top: 21rem;
+    left: 3%;
+    bottom: 10%;
+    box-shadow: 5px 10px 30px #888888;
     color: #EB870C;
     font-weight: bold;
 }
 .text2{
     position: absolute;
-    top: 22.2rem;
+    left: 3%;
+    bottom: 4.5%;
+    box-shadow: 5px 10px 30px #888888;
     color: white;
     font-size: small;
 }
+.ourproject{
+    background: #e8e8e8;
+    
+    padding: 3rem 0 4rem 0;
+    
+}
+
+/* invester */
+.invester1{
+    font-weight: lighter;
+    font-size: x-small;
+    color: #858585;
+}
+.invester2{
+    font-size: xx-large;
+    font-weight: bold;
+    padding-top: 1.3rem;
+    margin-bottom: 0rem;
+}
+.dot{
+    color: #EB870C;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.investerbutton{
+    width: 120px;
+    font-weight: bold;
+    background-color: #EB870C;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    padding: 8px;
+}
+.investerImg1{
+    height: 100%;
+    width: 100%;
+}
+.investerImg2{
+    position: relative;
+    background-image: url("/assets/08.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 100%;
+    width: 100%;
+}
+.investerImg2::before{
+    position: absolute;
+    content: '';
+    box-sizing: border-box;
+    border: 2px solid #eb870d;
+    height: 90%;
+    width: 90%;
+    top: 5%;
+    left: 5%;
+}
+
+/* Detail */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+.deatil-col1{
+    background-color: white;
+}
+.detail-1{
+    font-style: normal;
+    font-size: small;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+    writing-mode: vertical-lr;
+    text-align: center;
+    color: #575757;
+
+}
+.btnSubmit{
+    color: white;
+    background: #EB870C;
+    font-size: medium;
+    text-align: center;
+    padding: 5px;
+
+}
+.detail-2{
+    border-top: 1px solid #EB870C;
+    box-sizing: border-box;
+    margin: 0px 10px 0px 0px;
+    width: 36px;
+    height: 0.1rem;
+}
+.detail-3{
+    font-size: medium;
+}
+.detail-4{
+    border-radius: 2rem;
+    box-sizing: border-box;
+    padding: 0.6rem;
+    background: #eb870d;
+    margin: 2px 0px 2px 0px;
+
+}
+.detail-5{
+    /* flex text-xs mb-3 items-center */
+    float: auto;
+    font-size: small;
+    margin-bottom: 3px;
+    align-items: center;
+}
+.detail-6{
+    /* flex justify-center items-center bg-red */
+    flex: auto;
+    justify-items: center;
+    align-items: center;
+}
+.detail-col{
+    background-color: #e8e8e8;
+    
+}
+
+.testimonial-text{
+    top: 30%;
+}
+
+@media only screen and (max-width: 950px) {
+    .testimonial-text {
+        top: 18%;
+    }
+  }
