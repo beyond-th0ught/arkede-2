@@ -108,12 +108,16 @@ html {
     
 }
 .First{
+    height: 200px;
+    width: 250px;
+    
+}
+.FirstImg{
     position: relative;
-    height: 250px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
     background-size: cover;
     background-image: url("./assets/02.png");
-    
 }
 .Second{
     position: absolute;
@@ -121,17 +125,25 @@ html {
     margin-left: 12px;
     border: 2px solid #eb870d;
     box-sizing: border-box;
-    height: 225px;
-    width: 275px;
+    height: 177px;
+    width: 224px;
+}
+.ThirdImg{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    
+    bottom: -20%;
+    right: -17%;
+    /* margin-top: 62%;
+    margin-left: 82%; */
 }
 .Third{
     position: absolute;
-    height: 120px;
-    width: 120px;
-    bottom: -15%;
-    right: -10%;
-    /* margin-top: 62%;
-    margin-left: 82%; */
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-image: url("./assets/03.png");
 }
 .info2{
     padding-left: 3px;
@@ -287,6 +299,10 @@ html {
     color: white;
     padding: 8px;
 }
+.investerImg3{
+    height: 200px;
+    width: 300px;
+}
 .investerImg1{
     height: 100%;
     width: 100%;
@@ -294,7 +310,6 @@ html {
 .investerImg2{
     position: relative;
     background-image: url("/assets/08.png");
-    background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
     height: 100%;
