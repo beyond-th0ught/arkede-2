@@ -121,8 +121,6 @@
     font-size: x-small;
     font-style: normal;
   }
-  
-  /* Info */
 
 /* Info */
 .info {
@@ -165,16 +163,16 @@
   left: 12px;
   border: 2px solid #eb870d;
   box-sizing: border-box;
-  height: 177px;
-  width: 224px;
+  height: 225px;
+  width: 245px;
 }
 
   .ThirdImg {
     position: absolute;
-    height: 90px;
-    width: 90px;
+    height: 100px;
+    width: 100px;
     bottom: -20%;
-    right: -17%;
+    right: -13%;
 }
 .Third {
   position: absolute;
